@@ -1,5 +1,7 @@
-package com.stack.blog;
+package com.stack.blog.controller;
 
+import com.stack.blog.domain.Member;
+import com.stack.blog.service.TestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
